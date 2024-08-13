@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import VideoCard from './VideoCard'
-import {YOUTUBE_VIDEOS_API} from "../contants/constant";
+import {YOUTUBE_VIDEOS_API} from "../constant/constant";
 import { Link } from "react-router-dom";
 const VideoContainer = () => {
 
