@@ -11,7 +11,7 @@ const VideoCard = ({info}) => {
       />
       <div className="p-4">
         <h3 className="text-lg font-semibold text-gray-800 truncate">{info?.snippet?.title}</h3>
-        <p className="text-sm text-gray-600 mt-1">{info?.snippet?.channelTitle}</p>
+        <p className="text-sm text-gray-600 mt-1 font-bold">{info?.snippet?.channelTitle}</p>
         <p className="text-sm text-gray-500 mt-1">{info?.statistics?.viewCount} views</p>
       </div>
     </div>
